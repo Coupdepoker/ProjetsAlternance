@@ -1,0 +1,32 @@
+<div class="container">
+    <div>
+        <div class = "formulaire">
+            <div>
+                <label>Username</label>
+                <input [(ngModel)]="username" type="text" class="username"/>
+            </div>
+            <div class="block-email">
+                <label>Email</label>
+                <input [(ngModel)]="email" type="text" class="email" />
+            </div>
+            <div class="block-adresse">
+                <label>Adresse</label>
+                <input [(ngModel)]="adresse" type="text" class="adresse"/>
+            </div>
+            <div class="block-pass">
+                <label>Password</label>
+                <input [(ngModel)]="password" type="text" class="pass" />
+            </div>
+
+            <div class="block-register">
+              <button class="button-3" (click)="register()">Register</button>
+            </div>
+
+
+
+            <div class="block-login">
+                <p>Have an account? <a href="/login" class="login">Login</a></p>
+            </div>
+        </div>
+    </div>
+</div>

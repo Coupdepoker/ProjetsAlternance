@@ -1,0 +1,91 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+
+.button-3 {
+  appearance: none;
+  background-color: #2ea44f;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 17px 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+  top:0px;
+  left:0px;
+}
+
+.button-3:focus:not(:focus-visible):not(.focus-visible) {
+  box-shadow: none;
+  outline: none;
+}
+
+.button-3:hover {
+  background-color: #2c974b;
+}
+
+.button-3:focus {
+  box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+  outline: none;
+}
+
+.button-3:disabled {
+  background-color: #94d3a2;
+  border-color: rgba(27, 31, 35, .1);
+  color: rgba(255, 255, 255, .8);
+  cursor: default;
+}
+
+.button-3:active {
+  background-color: #298e46;
+  box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+
+.price{
+  position:relative;
+  left: 400px;
+  top : -150px;
+  font-size:40px;
+}
+
+.buy{
+  position: relative;
+  left: 850px;
+  top: -200px;
+}
+
+.infos{
+  position: relative;
+  left: 1400px;
+  top: -250px;
+}
+
+.card-footer{
+  height: 250px;
+}
+
+.image{
+  position : relative;
+  top:-9px;
+}
+
+.card{
+  border-top:5px solid #000;
+  border-bottom:5px solid #000;
+}
+
+.second-footer{
+  height: 100px;
+}

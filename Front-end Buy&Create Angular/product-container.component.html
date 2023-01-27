@@ -1,0 +1,24 @@
+<div>
+  <div class="bar">
+      <div class="block-username">
+          <label>Username</label>
+          <input [(ngModel)]="username" type="text" class="user-input"/>
+      </div>
+      <div class="button1">
+        <button class="button-3" (click)="getProductsOfUser()">Products of this user</button>
+    </div>
+      <div class="button2">
+          <button class="button-3" (click)="getAllProducts()">All products</button>
+      </div>
+      <div *ngIf="isLog" class="button3">
+        <button class="button-3" (click)="getProductsOfMe()">My products</button>
+    </div>
+  </div>
+  <div class="marge"></div>
+    <div *ngFor="let product of products">
+        <div class="col">
+            <app-product [item]="product"></app-product>
+        </div>
+
+    </div>
+</div>

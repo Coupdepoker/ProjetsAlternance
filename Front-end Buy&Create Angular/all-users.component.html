@@ -1,0 +1,18 @@
+<h1>List of users</h1>
+
+<table class="mytable">
+  <thead class="thead">
+    <tr>
+      <th>Id</th>
+      <th>Users</th>
+    </tr>
+  </thead>
+  <tbody>
+    <div *ngFor="let user of users">
+        <div class="col">
+            <app-user [item]="user"></app-user>
+        </div>
+
+    </div>
+  </tbody>
+  </table>

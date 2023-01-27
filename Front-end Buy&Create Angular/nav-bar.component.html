@@ -1,0 +1,21 @@
+<header class="header">
+  <h1>Buy & Product</h1>
+  <nav class="navbar navbar-dark bg-primary">
+
+    <ul class="form-inline">
+        <li *ngIf="!isLog" ><a href="login">Login</a></li>
+        <li *ngIf="isLog"><a href="profile">Profile</a></li>
+        <li class="nav-item"><a href="products">Products</a></li>
+        <li *ngIf="isLog"><a href="product/create">Create Products</a></li>
+        <li><a href="users">Users</a></li>
+
+        </ul>
+
+</nav>
+
+<div *ngIf="isLog">
+  <button  class="button-3" (click)="logout()">Logout</button>
+</div>
+
+</header>
+
